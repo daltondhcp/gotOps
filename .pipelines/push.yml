@@ -222,7 +222,8 @@ jobs:
     # we need to validate the repository state
     # is up to date and we won't encounter conflicts.
     #
-
+    environment:
+      name: Demo
     displayName: "Push"
     dependsOn: pre
     condition: or(contains(dependencies.pre.outputs['issue.state'], 'continue'), contains(dependencies.pre.outputs['skip.state'], 'continue'))
