@@ -9,7 +9,8 @@ name: "AzOps - Push"
 #
 
 trigger: none
-
+environment:
+  name: Demo
 variables:
 
   #
