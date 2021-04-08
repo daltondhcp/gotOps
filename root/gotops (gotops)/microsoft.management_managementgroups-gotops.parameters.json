@@ -1,0 +1,45 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Type": "/providers/Microsoft.Management/managementGroups",
+        "Name": "gotOps",
+        "DisplayName": "gotOps",
+        "ParentId": "/providers/Microsoft.Management/managementGroups/3114ebe8-8d3f-4bac-b3ce-59b4210a1287",
+        "ParentName": "3114ebe8-8d3f-4bac-b3ce-59b4210a1287",
+        "Children": [
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/gotOps-decommissioned",
+            "Name": "gotOps-decommissioned",
+            "DisplayName": "gotOps-decommissioned",
+            "Children": null
+          },
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/gotOps-landingzones",
+            "Name": "gotOps-landingzones",
+            "DisplayName": "gotOps-landingzones",
+            "Children": null
+          },
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/gotOps-platform",
+            "Name": "gotOps-platform",
+            "DisplayName": "gotOps-platform",
+            "Children": null
+          },
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/gotOps-sandboxes",
+            "Name": "gotOps-sandboxes",
+            "DisplayName": "gotOps-sandboxes",
+            "Children": null
+          }
+        ]
+      }
+    }
+  }
+}
