@@ -19,7 +19,7 @@
         "NotScopes": null,
         "DisplayName": "Deploy-Resource-Diag",
         "Description": "Deploy-Resource-Diag",
-        "EnforcementMode": "Default",
+        "EnforcementMode": "DoNotEnforce",
         "PolicyDefinitionId": "/providers/Microsoft.Management/managementGroups/gotOps/providers/Microsoft.Authorization/policySetDefinitions/Deploy-Diag-LogAnalytics",
         "Parameters": {
           "logAnalytics": {
