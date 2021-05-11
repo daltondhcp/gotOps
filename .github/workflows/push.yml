@@ -105,20 +105,10 @@ jobs:
       - name: "Dependencies"
         run: |
           Install-Module -Name AzOps -Force
-          curl -Lo bicep.bin https://github.com/Azure/bicep/releases/latest/download/bicep-linux-x64
-          chmod +x ./bicep.bin
-          mv ./bicep.bin /usr/local/bin/bicep
         shell: pwsh
         if: env.strict_mode == 'true'
         
-      - name: "Install Bicep"
-        run: |
-          curl -Lo bicep.bin https://github.com/Azure/bicep/releases/latest/download/bicep-linux-x64
-          chmod +x ./bicep.bin
-          sudo mv ./bicepinstall /usr/local/bin/bicep
-          bicep --version
-        shell: bash
-        if: env.strict_mode == 'true'
+    
       #
       # Connect
       # Authenticate Azure context
@@ -223,7 +213,7 @@ jobs:
         run: |
           curl -Lo bicep.bin https://github.com/Azure/bicep/releases/latest/download/bicep-linux-x64
           chmod +x ./bicep.bin
-          sudo mv ./bicepinstall /usr/local/bin/bicep
+          sudo mv ./bicep.bin /usr/local/bin/bicep
           bicep --version
         shell: bash
       #
