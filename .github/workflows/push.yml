@@ -105,6 +105,9 @@ jobs:
       - name: "Dependencies"
         run: |
           Install-Module -Name AzOps -Force
+          curl -Lo bicep.bin https://github.com/Azure/bicep/releases/latest/download/bicep-linux-x64
+          chmod +x ./bicep.bin
+          mv ./bicep.bin /usr/local/bin/bicep
         shell: pwsh
         if: env.strict_mode == 'true'
 
