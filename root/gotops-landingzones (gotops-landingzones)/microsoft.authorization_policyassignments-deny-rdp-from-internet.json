@@ -11,12 +11,12 @@
       "location": null,
       "properties": {
         "Scope": "/providers/Microsoft.Management/managementGroups/gotOps-landingzones",
-        "NotScopes": null,
+        "NotScopes": [],
         "DisplayName": "Deny-RDP-from-Internet",
         "Description": "Deny-RDP-from-Internet",
-        "EnforcementMode": "DoNotEnforce",
+        "EnforcementMode": "Default",
         "PolicyDefinitionId": "/providers/Microsoft.Management/managementGroups/gotOps/providers/Microsoft.Authorization/policyDefinitions/Deny-RDP-From-Internet",
-        "Parameters": null
+        "Parameters": {}
       }
     }
   ],
