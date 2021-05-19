@@ -14,7 +14,7 @@
         "NotScopes": null,
         "DisplayName": "Enforce-Secure-Storage",
         "Description": "Enforce-Secure-Storage",
-        "EnforcementMode": "Default",
+        "EnforcementMode": "DoNotEnforce",
         "PolicyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/404c3081-a854-4457-ae30-26a93ef643f9",
         "Parameters": {
           "effect": {
