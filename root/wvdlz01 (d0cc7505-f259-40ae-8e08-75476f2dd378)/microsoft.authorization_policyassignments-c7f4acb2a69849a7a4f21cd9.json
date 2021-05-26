@@ -23,7 +23,7 @@
         "PolicyDefinitionId": "/providers/Microsoft.Management/managementGroups/ctx01/providers/Microsoft.Authorization/policyDefinitions/Deploy-VNET-HubSpoke",
         "Parameters": {
           "vNetName": {
-            "value": "wvdlz01-westeurope-vnet"
+            "value": "wvdlz01-westeurope-vne2t"
           },
           "vNetRgName": {
             "value": "wvdlz01-network"
