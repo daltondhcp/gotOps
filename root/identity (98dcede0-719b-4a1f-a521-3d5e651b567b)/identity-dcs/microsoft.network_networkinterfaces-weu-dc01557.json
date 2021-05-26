@@ -20,7 +20,7 @@
             "properties": {
               "provisioningState": "Succeeded",
               "privateIPAddress": "10.254.1.4",
-              "privateIPAllocationMethod": "Static",
+              "privateIPAllocationMethod": "Dynamic",
               "subnet": {
                 "id": "/subscriptions/98dcede0-719b-4a1f-a521-3d5e651b567b/resourceGroups/identity-network/providers/Microsoft.Network/virtualNetworks/identity-vnet/subnets/DomainControllers"
               },
