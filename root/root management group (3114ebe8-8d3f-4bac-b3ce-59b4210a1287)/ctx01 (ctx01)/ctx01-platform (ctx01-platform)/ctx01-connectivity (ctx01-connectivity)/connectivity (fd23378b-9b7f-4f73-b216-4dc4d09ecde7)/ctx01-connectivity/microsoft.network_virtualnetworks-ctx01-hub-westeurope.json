@@ -26,6 +26,20 @@
               "privateLinkServiceNetworkPolicies": "Enabled"
             },
             "type": "Microsoft.Network/virtualNetworks/subnets"
+          },
+          {
+            "name": "appgw",
+            "properties": {
+              "addressPrefix": "10.100.1.0/26",
+              "applicationGatewayIPConfigurations": [
+                {}
+              ],
+              "serviceEndpoints": [],
+              "delegations": [],
+              "privateEndpointNetworkPolicies": "Enabled",
+              "privateLinkServiceNetworkPolicies": "Enabled"
+            },
+            "type": "Microsoft.Network/virtualNetworks/subnets"
           }
         ],
         "virtualNetworkPeerings": [
