@@ -93,7 +93,7 @@ jobs:
 
     name: "Pull"
     runs-on: ubuntu-20.04
-
+#
     env:
       ARM_CLIENT_ID: ${{ secrets.ARM_CLIENT_ID }}
       ARM_CLIENT_SECRET: ${{ secrets.ARM_CLIENT_SECRET }}
@@ -139,20 +139,20 @@ jobs:
       # Install required runtime modules
       #
 
-      #- name: "Dependencies"
-      #  run: |
-      #    Install-Module -Name AzOps -Force
-      #  shell: pwsh
       - name: "Dependencies"
         run: |
-          . .github/scripts/Install.ps1
-          Install-SourceModule -Repository "gbordier/AzOps" -Branch "gbordier-patch-subscriptiontarget"
-          $module = Get-Module -Name AzOps -ListAvailable
-          $data = Import-PowerShellDataFile -Path $module.Path
-          foreach ($dependency in $data.RequiredModules) {
-              Install-Module -Name $dependency.ModuleName -RequiredVersion $dependency.RequiredVersion -Force
-          }
+          Install-Module -Name AzOps -Force
         shell: pwsh
+     # name: "Dependencies"
+     # run: |
+     #   . .github/scripts/Install.ps1
+     #   Install-SourceModule -Repository "gbordier/AzOps" -Branch "gbordier-patch-subscriptiontarget"
+     #   $module = Get-Module -Name AzOps -ListAvailable
+     #   $data = Import-PowerShellDataFile -Path $module.Path
+     #   foreach ($dependency in $data.RequiredModules) {
+     #       Install-Module -Name $dependency.ModuleName -RequiredVersion $dependency.RequiredVersion -Force
+     #   }
+     # shell: pwsh
 
       #
       # Connect
