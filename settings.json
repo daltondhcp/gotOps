@@ -28,7 +28,7 @@
             "Core.PartialMgDiscoveryRoot": [],
             "Core.SkipPolicy": false,
             "Core.SkipResourceGroup": false,
-            "Core.SkipResource": true,
+            "Core.SkipResource": false,
             "Core.SkipRole": false,
             "Core.State": "",
             "Core.SubscriptionsToIncludeResourceGroups": "*",
