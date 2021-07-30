@@ -13,8 +13,7 @@
         "PolicyDefinitionReferenceIds": [
           "WVDAppGroupDeployDiagnosticLogDeployLogAnalytics",
           "StorageAccountDeployDiagnosticLogDeployLogAnalytics",
-          "ACRDeployDiagnosticLogDeployLogAnalytics",
-          "ACIDeployDiagnosticLogDeployLogAnalytics"
+          "ACRDeployDiagnosticLogDeployLogAnalytics"
         ],
         "ExemptionCategory": "Waiver",
         "DisplayName": "gotOps - Deploy-Resource-Diag",
