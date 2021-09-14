@@ -9,6 +9,10 @@
         "Properties": {
           "Description": "Deploy a user defined route to a VNET with routes from spoke to hub firewall.",
           "DisplayName": "Deploy a user defined route to a VNET with specific routes.",
+          "Metadata": {
+            "version": "1.0.0",
+            "category": "Network"
+          },
           "Mode": "Indexed",
           "Parameters": {
             "defaultRoute": {

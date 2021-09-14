@@ -9,6 +9,10 @@
         "Properties": {
           "Description": "Deploy a default budget on all subscriptions under the assigned scope",
           "DisplayName": "Deploy a default budget on all subscriptions under the assigned scope",
+          "Metadata": {
+            "version": "1.0.0",
+            "category": "Budget"
+          },
           "Mode": "All",
           "Parameters": {
             "amount": {
