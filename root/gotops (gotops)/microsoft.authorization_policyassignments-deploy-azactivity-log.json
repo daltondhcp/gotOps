@@ -15,9 +15,10 @@
       "apiVersion": "2021-06-01",
       "location": "westeurope",
       "identity": {
-        "type": "SystemAssigned",
-        "principalId": "018d8a50-1f15-4a34-8733-62cf783429fc",
-        "tenantId": "3114ebe8-8d3f-4bac-b3ce-59b4210a1287"
+        "PrincipalId": "018d8a50-1f15-4a34-8733-62cf783429fc",
+        "TenantId": "3114ebe8-8d3f-4bac-b3ce-59b4210a1287",
+        "IdentityType": "SystemAssigned",
+        "UserAssignedIdentities": null
       },
       "properties": {
         "Scope": "/providers/Microsoft.Management/managementGroups/gotOps",
