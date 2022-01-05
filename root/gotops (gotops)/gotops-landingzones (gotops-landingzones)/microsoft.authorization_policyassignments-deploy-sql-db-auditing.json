@@ -15,9 +15,10 @@
       "apiVersion": "2021-06-01",
       "location": "westeurope",
       "identity": {
-        "type": "SystemAssigned",
-        "principalId": "ed761ee3-e744-4609-9524-5425d6803e51",
-        "tenantId": "3114ebe8-8d3f-4bac-b3ce-59b4210a1287"
+        "PrincipalId": "ed761ee3-e744-4609-9524-5425d6803e51",
+        "TenantId": "3114ebe8-8d3f-4bac-b3ce-59b4210a1287",
+        "IdentityType": "SystemAssigned",
+        "UserAssignedIdentities": null
       },
       "properties": {
         "Scope": "/providers/Microsoft.Management/managementGroups/gotOps-landingzones",
