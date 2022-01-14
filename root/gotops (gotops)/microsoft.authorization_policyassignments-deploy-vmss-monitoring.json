@@ -17,8 +17,7 @@
       "identity": {
         "PrincipalId": "85003f8d-fcf0-4673-89ec-56c158ec6e11",
         "TenantId": "3114ebe8-8d3f-4bac-b3ce-59b4210a1287",
-        "IdentityType": "SystemAssigned",
-        "UserAssignedIdentities": null
+        "Type": "SystemAssigned"
       },
       "properties": {
         "Scope": "/providers/Microsoft.Management/managementGroups/gotOps",

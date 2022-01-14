@@ -17,8 +17,7 @@
       "identity": {
         "PrincipalId": "671d35a4-142e-41d9-b008-1e6bf9a3a46e",
         "TenantId": "3114ebe8-8d3f-4bac-b3ce-59b4210a1287",
-        "IdentityType": "SystemAssigned",
-        "UserAssignedIdentities": null
+        "Type": "SystemAssigned"
       },
       "properties": {
         "Scope": "/providers/Microsoft.Management/managementGroups/gotOps-landingzones",
