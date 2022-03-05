@@ -12,7 +12,7 @@
     {
       "type": "Microsoft.Authorization/roleAssignments",
       "name": "568d7700-0243-4427-92fb-c8be469a1ab0",
-      "apiVersion": "2022-01-01-preview",
+      "apiVersion": "2021-04-01-preview",
       "properties": {
         "DisplayName": "Clark Kent",
         "ObjectType": "User",

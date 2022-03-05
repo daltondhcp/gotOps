@@ -12,7 +12,7 @@
     {
       "type": "Microsoft.Authorization/roleAssignments",
       "name": "aa4ff695-6730-53d8-9854-0cf667c9c981",
-      "apiVersion": "2022-01-01-preview",
+      "apiVersion": "2021-04-01-preview",
       "properties": {
         "DisplayName": "Deploy-LX-Arc-Monitoring",
         "ObjectType": "ServicePrincipal",
