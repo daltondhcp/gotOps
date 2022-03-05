@@ -12,7 +12,7 @@
     {
       "type": "Microsoft.Authorization/roleAssignments",
       "name": "0060a03d-e075-5f07-8471-a57fec14040d",
-      "apiVersion": "2022-01-01-preview",
+      "apiVersion": "2021-04-01-preview",
       "properties": {
         "DisplayName": "Enforce-SQL-Encryption",
         "ObjectType": "ServicePrincipal",

@@ -12,7 +12,7 @@
     {
       "type": "Microsoft.Authorization/roleAssignments",
       "name": "e73f5086-31f8-50e1-840c-b935ab1e0858",
-      "apiVersion": "2022-01-01-preview",
+      "apiVersion": "2021-04-01-preview",
       "properties": {
         "DisplayName": "Deploy-AKS-Policy",
         "ObjectType": "ServicePrincipal",

@@ -12,7 +12,7 @@
     {
       "type": "Microsoft.Authorization/roleAssignments",
       "name": "bb960a49-b990-58b6-98c5-346fe2afbe68",
-      "apiVersion": "2022-01-01-preview",
+      "apiVersion": "2021-04-01-preview",
       "properties": {
         "DisplayName": "Deploy-ASC-Security",
         "ObjectType": "ServicePrincipal",
