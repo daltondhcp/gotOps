@@ -12,7 +12,7 @@
     {
       "type": "Microsoft.Authorization/roleAssignments",
       "name": "e0626c9b-6f40-4ec6-9301-9a8d58ff041d",
-      "apiVersion": "2021-04-01-preview",
+      "apiVersion": "2022-01-01-preview",
       "properties": {
         "DisplayName": "MS-PIM",
         "ObjectType": "ServicePrincipal",
